@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
+    font-style: normal;
 }
 
 /* banner start */
@@ -23,7 +24,6 @@
     height: 228px;
     left: 845px;
     top: 216px;
-    font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
@@ -37,7 +37,6 @@
     height: 78px;
     left: 876px;
     top: 468px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -103,7 +102,7 @@
     left: 862px;
     top: 1178px;
 
-    font-style: normal;
+
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -118,8 +117,6 @@
     left: 862px;
     top: 1296px;
 
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -158,8 +155,6 @@ main section div ul li {
     height: 35px;
     left: 230px;
     top: 2012.26px;
-
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -174,9 +169,6 @@ main section div ul li {
     height: 29px;
     left: 277px;
     top: 2063.26px;
-
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
@@ -190,17 +182,22 @@ main section div ul li {
     height: 93px;
 }
 
+.my-plan1 {
+    justify-content: center;
+}
+
 /* mindset */
+
+
+
 .maindset {
-    background-image: url(/images/watch.png);
-    background-image: -moz-linear-gradient();
+    background: url(/images/watch.png);
+    background-size: cover;
     position: absolute;
     width: 1140px;
     height: 300px;
     left: 230px;
     top: 2216.3px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    border-radius: 8px;
 
 
 }
@@ -210,41 +207,130 @@ main section div ul li {
     height: 94px;
     left: 294px;
     top: 2275.3px;
-
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
+    text-align: left;
+
+}
+
+.mindset-all {
+    padding-left: 64px;
+    padding-top: 84px;
+    padding-bottom: 59px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 
 }
 
 .btn-second {
 
-    width: 459px;
-    height: 94px;
+    width: 160px;
+    height: 64px;
     left: 294px;
-    top: 2275.3px;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+    top: 2393.3px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 47px;
-    color: #FFFFFF;
-    border-radius: 5px;
+    color: #F15B22;
+    border-radius: 8px;
     border: none;
+    text-align: center;
 }
 
 
 
 
 /* footer-part */
-footer {
-    position: absolute; 
-     width: 1600px;
-     height: 577px;
-     left: 0px;
-     top: 2646.3px;
-     display: flex;
- 
- }
+.footer {
+    background-color: #151414;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2646.3px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer .future {
+
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2776.3px;
+
+}
+
+.footer .sub {
+
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2776.3px;
+}
+
+.future-title {
+
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2776.3px;
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+
+.future-desc {
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2845.3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+address {
+    width: 186px;
+    height: 26px;
+    left: 230px;
+    top: 2989.3px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.add-icon {
+    width: 186px;
+    height: 146px;
+    left: 230px;
+    top: 2947.3px;
+
+}
+
+#anc {
+    width: 175px;
+    height: 46px;
+    left: 230px;
+    top: 3047.3px;
+    
+    padding-top:600px;
+
+}
+
+/* sub */
+ .footer.sub{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer-end */
