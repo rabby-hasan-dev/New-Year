@@ -6,7 +6,7 @@
 
 /* banner start */
 .banner {
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(./images/banner/banner2.png);
     position: absolute;
     height: 809px;
     width: 1600px;
@@ -134,7 +134,7 @@
 }
 
 main section div ul li {
-    list-style-image: url(/images/icons/list\ icon.png);
+    list-style-image: url(./images/icons/list\ icon.png);
 
 }
 
@@ -191,7 +191,7 @@ main section div ul li {
 
 
 .maindset {
-    background: url(/images/watch.png);
+    background: url(./images/watch.png);
     background-size: cover;
     position: absolute;
     width: 1140px;
